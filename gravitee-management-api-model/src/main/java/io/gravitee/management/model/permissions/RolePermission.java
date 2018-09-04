@@ -58,6 +58,7 @@ public enum RolePermission {
     API_RATING_ANSWER       (RoleScope.API, ApiPermission.RATING_ANSWER),
     API_NOTIFICATION        (RoleScope.API, ApiPermission.NOTIFICATION),
     API_MESSAGE             (RoleScope.API, ApiPermission.MESSAGE),
+    API_ALERT               (RoleScope.API, ApiPermission.ALERT),
 
     APPLICATION_DEFINITION  (RoleScope.APPLICATION, ApplicationPermission.DEFINITION),
     APPLICATION_MEMBER      (RoleScope.APPLICATION, ApplicationPermission.MEMBER),
