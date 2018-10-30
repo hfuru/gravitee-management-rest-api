@@ -59,7 +59,8 @@ public class LdapIdentityLookup implements IdentityLookup, InitializingBean {
     private final static String LDAP_ATTRIBUTE_GIVENNAME = "givenName";
     private final static String LDAP_ATTRIBUTE_SURNAME = "sn";
     private final static String LDAP_ATTRIBUTE_MAIL = "mail";
-    private final static String LDAP_ATTRIBUTE_DISPLAYNAME = "displayName";
+	/* Minimal temporary hack for Gravitee issue#1627 + #1630 */
+    private final static String LDAP_ATTRIBUTE_DISPLAYNAME = "uid";
 
     @Autowired
     private LdapTemplate ldapTemplate;
